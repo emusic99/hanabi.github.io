@@ -1,0 +1,50 @@
+stacks:
+  - r: 4
+  - y: 1
+  - g: 0
+  - b: 0
+  - p: 0
+players:
+  - clueGiver: true
+    cards:
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+        above: Red 5
+      - type: x
+      - type: x
+      - type: x
+      - type: x
+  - cards:
+      - type: x
+      - type: 3
+        clue: r
+        middleNote: (3)
+      - type: x
+      - type: x
+      - type: x
+  - text: After Bob blind-plays red 5..
+  - name: Cathy
+    cards:
+      - type: x
+      - type: 3
+        trash: true
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
+      - type: x
+        above:
+          text:
+            - Chop
+            - Moved
