@@ -22,7 +22,7 @@ import ChopMoveIgnitionTwoCards from "./level-21/chop-move-ignition-two-cards.ym
 - Several types of "useless" clues trigger a _Double Ignition_. These different types are listed below.
 - When a _Double Ignition_ is triggered, it means that two players on the team need to blind-play their _Finesse Position_ as any playable card.
 - Similar to an _Ambiguous Finesse_, an _Ambiguous Double Ignition_ is possible. Specifically, this means that three or more players have a playable card on _Finesse Position_. In this situation, we strongly define who is supposed to be blind-playing:
-  - The first _Ignition_ **must always be on Bob**, unless Bob has a known-playable card already. Then, it would be on the first player that does not already have a known-playable card.
+  - The first _Ignition_ **must always be on the first player that does not already have a known-playable card**.
   - The second _Ignition_ **must always be on the last player with a playable card**.
 
 ## Special Moves
@@ -84,7 +84,7 @@ import ChopMoveIgnitionTwoCards from "./level-21/chop-move-ignition-two-cards.ym
 
 <ChopMoveIgnitionOneCard />
 
-- Sometimes, it can be useful to _Chop Move_ a playable card. Something is only a _Chop Move Ignition_ if there is not some other good reason for the _Chop Move_. Specifically, the player might want to:
+- Sometimes, it can be useful to _Chop Move_ a playable card. Something is only a _Chop Move Ignition_ if there is no other good reason for the _Chop Move_. Specifically, the player might want to:
   - Avoid violating _Good Touch Principle_.
   - Save a _Delayed Playable_ card that is followed by a critical card.
   - Get a blind-play from _Elimination_ when the duplicate is visible.
